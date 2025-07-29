@@ -1,0 +1,211 @@
+.main-content {
+	margin-top: 40px;
+	left: 0;
+	right: 0;
+	font-family: "Inter", sans-serif;
+	margin-bottom: 70px;
+	min-height: 700px;
+}
+
+.com-main-content {
+	margin-top: 60px;
+	left: 0;
+	right: 0;
+	font-family: "Inter", sans-serif;
+	margin-bottom: 50px;
+	min-height: 700px;
+}
+
+.user-content{
+	margin-top: 30px;
+	left: 0;
+	right: 0;
+	font-family: "Inter", sans-serif;
+	margin-bottom: 60px;
+	min-height: 700px;
+}
+
+h1 {
+	text-align: center;
+	font: bold;
+	color: rgb(31, 29, 119);
+}
+
+.alert-text{
+	text-align: center;
+}
+
+strong{
+	color: rgb(31, 29, 119);
+}
+
+table {
+	border-collapse: collapse;
+	background-color: white;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	border-radius: 8px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.computer-list-table{
+	font-size: 20px;
+}
+
+.inventory-table{
+	font-size: 20px;
+}
+
+th{
+	background-color: rgb(31, 29, 119);
+	color: white;
+	padding: 15px 20px;
+	text-align: center;
+}
+
+td{
+	padding: 15px 15px;
+	text-align: left;
+}
+
+.td-quantity{
+	text-align: center;;
+}
+
+.inventory-tr td{
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.inventory-tr td .form-group{
+	margin-top: 15px;
+}
+
+.computer-tr td{
+	padding: 10px 30px;
+}
+
+tr:hover {
+	background-color:rgb(209, 212, 212);
+}
+
+.form-group {
+	display: flex;
+	align-items: center;
+}
+
+.computer-tr .form-group{
+	align-items: left;
+}
+
+.form-group form input[type="submit"] {
+    padding: 10px 16px;
+	font-size: 15px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background 0.3s;
+}
+
+.take-out-btn, .edit-btn {
+	background-color: #386ddf;
+	color: white;
+}
+
+.history-btn, .delete-btn {
+	background-color: #F44336;
+	color: white;
+}
+
+.take-out-btn:hover, .edit-btn:hover {
+	background-color: rgb(31, 29, 119);
+}
+
+.history-btn:hover, .delete-btn:hover {
+	background-color: #ff0000;
+}
+
+.pagination {
+    margin-top: 20px;
+	margin-left: 530px;
+	margin-right: 530px;
+}
+
+span{
+	float: right;
+}
+
+.pagination a {
+    padding: 8px 12px;
+    margin: 0 4px;
+	color: black;
+    background: #f0f0f0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.com-pagination, .add-com-btn, .add-item {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.add-com-btn a , .add-item a{
+	padding: 8px 12px;
+	color: white;
+	background-color: rgb(31, 29, 119);
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.com-pagination a{
+	padding: 8px 10px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: #f0f0f0;
+	border-radius: 5px;
+}
+
+.com-add{
+	margin-left: 150px;
+}
+
+.pagination a:hover,
+.pagination .current {
+    background: rgb(31, 29, 119);
+    color: white;
+}
+
+.com-pagination a:hover,
+.com-pagination .current,
+.com-pagination .com-add {
+    background: rgb(31, 29, 119);
+    color: white;
+}
+
+.com-pagination .com-add:hover,
+.add-com-btn a:hover,
+.add-item a:hover {
+	background: rgb(49, 46, 201);
+}
+
+.warn-text{
+	margin-top: 5px;
+}
+
+footer {
+  font-family: "Inter", sans-serif;
+  color: black;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 40px;
+}
+
+@media (max-width: 600px) {
+	table, th, td {
+		font-size: 14px;
+		padding: 12px;
+	}
+}

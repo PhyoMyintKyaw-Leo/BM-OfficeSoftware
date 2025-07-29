@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #073483, #f7e708);
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 450px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.add-container {
+  width: 100%;
+  max-width: 450px;
+  max-height: 500px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.img{
+    width: 300px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.login-form h2, .edit-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+	margin-bottom: 15px;
+}
+
+.form-button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group select{
+	flex: 1;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+  transition: border-color 0.3s;
+	font-size: 16px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  transition: border-color 0.3s;
+  font-size: 16px;
+}
+
+.form-group textarea{
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  transition: border-color 0.3s;
+  font-size: 16px;
+}
+
+.form-button input,
+.form-button a{
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  transition: border-color 0.3s;
+  font-size: 16px;
+  background: #2575fc;
+  color: white;
+  text-align: center;
+}
+
+.add-button input, .add-button a{
+  width: 60%;
+  padding: 10px;
+  background: #2575fc;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  color: white;
+  transition: border-color 0.3s;
+  cursor: pointer;
+}
+
+.form-button a, .add-button a{
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.form-group input:focus {
+  border-color: #2575fc;
+  outline: none;
+}
+
+.form-group select:focus {
+  border-color: #2575fc;
+  outline: none;
+}
+
+.login-btn, .password-btn, .edit-inv-btn{
+  text-align: center;
+}
+
+.login-btn button {
+  width: 50%;
+  padding: 12px;
+  background: #2575fc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.password-btn button, .edit-inv-btn button{
+  width: 100px;
+  padding: 12px;
+  background: #2575fc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.back-btn {
+  padding: 10px 16px;
+  margin: 6px 4px;
+  background: #2575fc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+
+button:hover, a:hover {
+  background: #1a5edc;
+}
+
+.form-button input:hover,
+.form-button a:hover,
+.add-button input:hover{
+  background: #1a5edc;
+}
+
+.error{
+	color: red;
+}
+
+footer {
+	font-family: "Inter", sans-serif;
+	color: black;
+	position: fixed;
+  bottom: 0;
+  width: 100%;
+	text-align: center;
+	padding: 12px;
+	height: 50px;
+}
