@@ -1,0 +1,4 @@
+setcookie("name", "Bob");
+setcookie("theme", "light");
+
+Constant တွေ ကို define()
